@@ -1,0 +1,19 @@
+Substantial reuse of code/ideas:
+(none yet)
+
+Technologies used:
+- GitHub, GitHub Pages
+- HTML, CSS, and JavaScript
+- Sublime Text
+
+Documentation, techniques, information:
+- Wikipedia
+- StackOverflow
+
+Assets:
+- Google fonts - Lato
+
+Inspirations:
+http://cosmosdarwin.com/
+http://damondoucet.net/
+http://jasonmraz.com/
