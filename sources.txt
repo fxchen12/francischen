@@ -9,6 +9,8 @@ Technologies used:
 Documentation, techniques, information:
 - Wikipedia
 - StackOverflow
+- https://css-tricks.com/
+- http://www.w3schools.com/
 
 Assets:
 - Google fonts - Lato
@@ -17,3 +19,4 @@ Inspirations:
 http://cosmosdarwin.com/
 http://damondoucet.net/
 http://jasonmraz.com/
+http://www.apple.com/

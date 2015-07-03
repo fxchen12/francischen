@@ -1,0 +1,110 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+}
+
+#top_bar {
+    width: 100%;
+    min-width: 1024px;
+    height: 35px;
+    background-color: rgb(76, 76, 76);
+}
+
+.nav_side {
+    height: 35px;
+    padding-top: 6px;
+    font-size: 14pt;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+
+#top_left {
+    float: left;
+}
+
+#top_right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#engineer_filter {
+    margin-left: 15px;
+}
+
+#resume_pop {
+    cursor: pointer;
+}
+
+#contact_pop {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.slash {
+    margin-left: 3px;
+    margin-right: 3px;
+    color: rgb(215, 215, 215);
+    font-weight: 100px
+}
+
+#top_center {
+    width: 100%;
+    min-width: 1024px;
+    height: 335px;
+    position: relative;
+    top: -6px;
+    display: inline-block;
+}
+
+.tc_part {
+    float: left;
+    width: 33%;
+    height: inherit;
+}
+
+#tc_left {
+    background-image: url("../assets/revere.png");
+    background-size: cover;
+}
+
+#tc_mid {
+    background-image: url("../assets/francis_profile.png");
+    width: 34%;
+}
+
+#tc_right {
+    background-color: rgb(240, 240, 240)
+}
+
+#tcl_name {
+    margin-top: 100px;
+    margin-left: 8%;
+    font-size: 36pt;
+    color: white;
+}
+
+#tcl_ea {
+    margin-top: 10px;
+    margin-left: 22%;
+    font-size: 24pt;
+    font-style: italic;
+    color: white;
+}
+
+#tcr_text {
+    width: 70%;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 52px;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 150%;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(60, 60, 60);
+}
