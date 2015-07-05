@@ -1,13 +1,18 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "jaf-bernina-sans",sans-serif;
+    font-weight: 300;
     margin: 0px;
 }
 
 #top_bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
     width: 100%;
     min-width: 1024px;
     height: 35px;
-    background-color: rgb(76, 76, 76);
+    background-color: rgba(76, 76, 76, 0.8);
+    z-index: 1;
 }
 
 .nav_side {
@@ -52,9 +57,13 @@ body {
 }
 
 #top_center {
+    background-image: url("../assets/beach2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
     min-width: 1024px;
-    height: 335px;
+    height: 395px;
+
     position: relative;
     top: -6px;
     display: inline-block;
@@ -67,8 +76,7 @@ body {
 }
 
 #tc_left {
-    background-image: url("../assets/revere.png");
-    background-size: cover;
+    
 }
 
 #tc_mid {
