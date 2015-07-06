@@ -5,12 +5,15 @@ Technologies used:
 - GitHub, GitHub Pages
 - HTML, CSS, and JavaScript
 - Sublime Text
+- Adobe Photoshop
 
 Documentation, techniques, information:
 - Wikipedia
 - StackOverflow
 - https://css-tricks.com/
 - http://www.w3schools.com/
+- Erik D. Kennedy on Medium
+- https://support.mozilla.org/
 
 Assets:
 - Google fonts - Lato

@@ -1,17 +1,21 @@
 body {
-    font-family: "jaf-bernina-sans",sans-serif;
+    font-family: "effra", sans-serif;
     font-weight: 300;
     margin: 0px;
+    min-width: 1024px;
 }
 
 #top_bar {
     position: fixed;
-    top: 0px;
     left: 0px;
+    top: 0px;
     width: 100%;
-    min-width: 1024px;
+    min-width: 350px;
+    /*
+        Below Chrome and Firefox minimum width.
+    */
     height: 35px;
-    background-color: rgba(76, 76, 76, 0.8);
+    background-color: rgba(76, 76, 76, 0.65);
     z-index: 1;
 }
 
@@ -19,13 +23,19 @@ body {
     height: 35px;
     padding-top: 6px;
     font-size: 14pt;
-    font-weight: 100;
-    color: rgb(255, 255, 255);
+    color: rgb(180, 180, 180);
     letter-spacing: 1px;
 }
 
 #top_left {
+    background-image: url("../assets/logo_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     float: left;
+    height: 27px;
+    width: 27px;
+    margin-top: 4px;
+    margin-left: 5px;
 }
 
 #top_right {
@@ -52,21 +62,19 @@ body {
 .slash {
     margin-left: 3px;
     margin-right: 3px;
-    color: rgb(215, 215, 215);
-    font-weight: 100px
+    color: rgb(180, 180, 180);
 }
 
 #top_center {
-    background-image: url("../assets/beach2.png");
-    background-size: contain;
+    background-image: url("../assets/banner.png");
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     min-width: 1024px;
-    height: 395px;
-
-    position: relative;
-    top: -6px;
-    display: inline-block;
+    padding-top: 26.29%;
+    /*
+    http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size
+    */
 }
 
 .tc_part {
