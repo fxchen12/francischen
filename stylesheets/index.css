@@ -1,8 +1,8 @@
 body {
-    font-family: "effra", sans-serif;
-    font-weight: 300;
     margin: 0px;
     min-width: 1024px;
+    font-family: "effra", sans-serif;
+    font-weight: 300;
 }
 
 #top_bar {
@@ -10,25 +10,15 @@ body {
     left: 0px;
     top: 0px;
     width: 100%;
-    min-width: 350px;
-    /*
-        Below Chrome and Firefox minimum width.
-    */
+    min-width: 350px; /* Below Chrome and Firefox minimum width. */
     height: 35px;
-    background-color: rgba(76, 76, 76, 0.65);
     z-index: 1;
-}
-
-.nav_side {
-    height: 35px;
-    padding-top: 6px;
-    font-size: 14pt;
+    background-color: rgba(76, 76, 76, 0.65);
     color: rgb(180, 180, 180);
-    letter-spacing: 1px;
 }
 
 #top_left {
-    background-image: url("../assets/logo_white.png");
+    background-image: url("../assets/logo_gray.png");
     background-size: contain;
     background-repeat: no-repeat;
     float: left;
@@ -39,15 +29,14 @@ body {
 }
 
 #top_right {
+    padding-top: 6px;
+    font-size: 14pt;
+    letter-spacing: 1px;
     float: right;
 }
 
 .clear {
     clear: both;
-}
-
-#engineer_filter {
-    margin-left: 15px;
 }
 
 #resume_pop {
@@ -62,65 +51,46 @@ body {
 .slash {
     margin-left: 3px;
     margin-right: 3px;
-    color: rgb(180, 180, 180);
 }
 
-#top_center {
+#banner {
     background-image: url("../assets/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-width: 1024px;
     padding-top: 26.29%;
-    /*
-    http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size
-    */
+    /* http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size */
 }
 
-.tc_part {
-    float: left;
-    width: 33%;
-    height: inherit;
-}
-
-#tc_left {
-    
-}
-
-#tc_mid {
-    background-image: url("../assets/francis_profile.png");
-    width: 34%;
-}
-
-#tc_right {
-    background-color: rgb(240, 240, 240)
-}
-
-#tcl_name {
-    margin-top: 100px;
-    margin-left: 8%;
-    font-size: 36pt;
-    color: white;
-}
-
-#tcl_ea {
-    margin-top: 10px;
-    margin-left: 22%;
-    font-size: 24pt;
-    font-style: italic;
-    color: white;
-}
-
-#tcr_text {
-    width: 70%;
-    height: 240px;
+#intro {
+    width: 1024px;
+    height: 350px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 52px;
+}
+
+#intro_left {
+    background-image: url("../assets/me.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: inherit;
+    width: 350px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+    float: left;
+}
+
+#intro_right {
+    width: 649px;
+    display: inline-block;
+    float: left;
+}
+
+#intro_text {
+    margin: 45px;
     font-size: 14pt;
-    font-weight: 300;
-    line-height: 150%;
     text-align: justify;
     text-justify: inter-word;
-    color: rgb(60, 60, 60);
 }
