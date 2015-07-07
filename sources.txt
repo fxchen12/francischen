@@ -1,11 +1,13 @@
 Substantial reuse of code/ideas:
-(none yet)
+- jQuery
+- http://leafo.net/sticky-kit/
+- http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size
 
 Technologies used:
 - GitHub, GitHub Pages
 - HTML, CSS, and JavaScript
-- Sublime Text
-- Adobe Photoshop
+- Sublime Text 3
+- Adobe CC, especially Photoshop and Typekit
 
 Documentation, techniques, information:
 - Wikipedia
@@ -14,12 +16,20 @@ Documentation, techniques, information:
 - http://www.w3schools.com/
 - Erik D. Kennedy on Medium
 - https://support.mozilla.org/
+- goodreads.com
+- http://www.copyright.gov/circs/circ01.pdf
 
 Assets:
-- Google fonts - Lato
+- Typeface: Effra by Dalton Maag
+- Typeface: Apple Chancery
+- Austin Fathman for photo
+- MIT GEL for photo
+- See Journey repository for additional photo credits
 
 Inspirations:
 http://cosmosdarwin.com/
 http://damondoucet.net/
 http://jasonmraz.com/
 http://www.apple.com/
+
+See project repositories for project-specific sources.

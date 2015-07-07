@@ -6,15 +6,11 @@ body {
 }
 
 #top_bar {
-    position: fixed;
-    left: 0px;
-    top: 0px;
     width: 100%;
-    min-width: 350px; /* Below Chrome and Firefox minimum width. */
     height: 35px;
     z-index: 1;
     background-color: rgba(76, 76, 76, 0.65);
-    color: rgb(180, 180, 180);
+    color: rgb(220, 220, 220);
 }
 
 #top_left {
@@ -26,6 +22,7 @@ body {
     width: 27px;
     margin-top: 4px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 #top_right {
@@ -39,12 +36,11 @@ body {
     clear: both;
 }
 
-#resume_pop {
-    cursor: pointer;
-}
-
 #contact_pop {
     margin-right: 15px;
+}
+
+.pop_button {
     cursor: pointer;
 }
 
@@ -75,7 +71,7 @@ body {
     background-repeat: no-repeat;
     height: inherit;
     width: 350px;
-    margin-top: 25px;
+    margin-top: 40px;
     margin-left: 25px;
     margin-bottom: 25px;
     display: inline-block;
@@ -89,8 +85,59 @@ body {
 }
 
 #intro_text {
-    margin: 45px;
+    margin: 70px 45px;
     font-size: 14pt;
     text-align: justify;
     text-justify: inter-word;
 }
+
+#project_title {
+    width: 100%;
+    min-width: 1024px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: rgb(220, 220, 220);
+    font-size: 26pt;
+    color: rgb(160, 160, 160);
+    text-align: center;
+}
+
+.project {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: 960px;
+    height: 220px;
+}
+
+#dots {
+    background-image: url("../assets/dots_banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#journey {
+    background-image: url("../assets/journey_banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#copyright {
+    width: 100%;
+    min-width: 1024px;
+    height: 31px;
+    padding-top: 7px;
+    background-color: rgb(200, 200, 200);
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    text-align: center;
+}
+
+
