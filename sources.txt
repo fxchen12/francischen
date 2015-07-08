@@ -8,6 +8,7 @@ Technologies used:
 - HTML, CSS, and JavaScript
 - Sublime Text 3
 - Adobe CC, especially Photoshop and Typekit
+- Google Domains
 
 Documentation, techniques, information:
 - Wikipedia
@@ -18,6 +19,7 @@ Documentation, techniques, information:
 - https://support.mozilla.org/
 - goodreads.com
 - http://www.copyright.gov/circs/circ01.pdf
+- https://news.ycombinator.com/item?id=7738293
 
 Assets:
 - Typeface: Effra by Dalton Maag
