@@ -2,6 +2,8 @@ Substantial reuse of code/ideas:
 - jQuery
 - http://leafo.net/sticky-kit/
 - http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size
+- http://stackoverflow.com/questions/16586594/scroll-up-and-down-a-div-on-button-click-using-jquery
+- https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video
 
 Technologies used:
 - GitHub, GitHub Pages
@@ -11,15 +13,18 @@ Technologies used:
 - Google Domains
 
 Documentation, techniques, information:
+- Google
 - Wikipedia
 - StackOverflow
 - https://css-tricks.com/
 - http://www.w3schools.com/
 - Erik D. Kennedy on Medium
 - https://support.mozilla.org/
+- https://developer.mozilla.org/
 - goodreads.com
 - http://www.copyright.gov/circs/circ01.pdf
 - https://news.ycombinator.com/item?id=7738293
+- https://www.ivcc.edu/stylebooks/stylebook4.aspx?id=14718
 
 Assets:
 - Typeface: Effra by Dalton Maag
