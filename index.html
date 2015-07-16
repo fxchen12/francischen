@@ -2,7 +2,8 @@
 <html>
     <head>
         <link rel = "stylesheet" type = "text/css" href = "./stylesheets/index.css" />
-        <link rel = "icon" href = "./assets/favicon.png" type = "image/png" sizes = "16x16">
+        <link rel = "icon" href = "./assets/favicon.png" type = "image/png" sizes = "16x16"/>
+        <link rel = "stylesheet" href = "./font-awesome-4.3.0/css/font-awesome.min.css"/>
 
         <script src="//use.typekit.net/rsz7dan.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
@@ -57,29 +58,34 @@
             <span id = "portfolio_text">PORTFOLIO</span>
         </div>
 
-        <div id = "dots" class = "project">
-            <div id = "dots_cover" class = "proj_cover">
-                <div class = "proj_content">
-                    <div class = "proj_text">
-                        <span style = "font-style: italic">Days of the Summer</span> was inspired by my time in Fairfield, CT during the summer of 2014. I composed it as a senior at MIT, for the Harmony and Counterpoint II class. The piece uses approaches from Western Classical music.
-                    </div>
-                    <div class = "proj_buttons">
-                        <div id = "dots_listen" class = "proj_button">Listen</div>
-                        <div id = "dots_score" class = "proj_button">Sheet Music</div>
+        <div id = "proj_container">
+            <div id = "dots" class = "project">
+                <div id = "dots_cover" class = "proj_cover">
+                    <div class = "proj_content">
+                        <div class = "proj_text">
+                            <span style = "font-style: italic">Days of the Summer</span> was inspired by my time in Fairfield, CT during the summer of 2014. I composed it as a senior at MIT, for the Harmony and Counterpoint II class. The piece uses approaches from Western Classical music.
+                        </div>
+                        <div class = "proj_buttons">
+                            <div id = "dots_listen" class = "proj_button">Listen</div>
+                            <div id = "dots_score" class = "proj_button">Sheet Music</div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div id = "journey" class = "project">
-            <div id = "journey_cover" class = "proj_cover">
-                <div class = "proj_content">
-                    <div class = "proj_text">
-                        <span style = "font-style: italic">Journey</span> is a web application for fitness tracking. Users can define activities, set goals, view progress graphs, and gain achievements. Austin, Keanu, and I developed this for MIT's 6.470 Web Programming Competition in early 2014. Best on Mozilla Firefox.
-                    </div>
-                    <div class = "proj_buttons">
-                        <div id = "journey_site" class = "proj_button">View Site</div>
-                        <div id = "journey_github" class = "proj_button">Source Code</div>
+            <div id = "journey" class = "project">
+                <div id = "journey_cover" class = "proj_cover">
+                    <div class = "proj_content">
+                        <div class = "proj_text">
+                            <span style = "font-style: italic">Journey</span> is a web application for fitness tracking. Users can define activities, set goals, view progress graphs, and gain achievements. Austin, Keanu, and I developed this for MIT's 6.470 Web Programming Competition in early 2014. Best on Mozilla Firefox.
+                        </div>
+                        <div class = "proj_buttons">
+                            <a href = "http://peaceful-basin-4110.herokuapp.com/" target = "_blank">
+                                <div id = "journey_site" class = "proj_button">View Site</div></a>
+                            <a href = "https://github.com/fxchen12/AlphaBrosPublic" target = "_blank">
+                                <div id = "journey_github" class = "proj_button">Source Code</div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,10 +95,44 @@
             &copy; 2015 Francis Chen
         </div>
 
-        <div id = "resume">
+        <div id = "contact">
+            <div class = "xbutton">x</div>
+            <div id = "contact_title">Contact Information</div>
+            <div id = "contact_content">
+                <div class = "contact_line">
+                    <a href = "mailto:fc@francischen.org">
+                        <i id = "em_icon" class="fa fa-envelope-square fa-3x"></i>
+                        <span id = "em_text" class = "contact_text">
+                            fc@francischen.org
+                        </span>
+                    </a>
+                </div>
+                <div class = "contact_line">
+                    <a href = "https://github.com/fxchen12" target = "_blank">
+                        <i id = "gh_icon" class="fa fa-github fa-3x"></i>
+                        <span id = "gh_text" class = "contact_text">
+                            fxchen12
+                        </span>
+                    </a>
+                </div>
+                <div class = "contact_line">
+                    <a href = "https://www.linkedin.com/in/francisxchen" target = "_blank">
+                        <i id = "li_icon" class="fa fa-linkedin-square fa-3x"></i>
+                        <span id = "li_text" class = "contact_text">
+                            francisxchen
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
 
-        <div id = "contact">
+        <div id = "dots_play">
+        </div>
+
+        <div id = "dots_sheet" class = "pdf">
+        </div>
+
+        <div id = "cover">
         </div>
 
     </body>

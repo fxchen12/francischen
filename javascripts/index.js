@@ -31,6 +31,9 @@ $(document).ready(function() {
         $(this).css("background-color", "rgba(255, 255, 255, 0)");
     });
 
+    // To keep track of what's popped up.
+    var currentWindow;
+
     // Top bar
     // http://stackoverflow.com/questions/16586594/scroll-up-and-down-a-div-on-button-click-using-jquery
     $("#top_left_white").click(function() {
@@ -39,13 +42,67 @@ $(document).ready(function() {
         });
     });
 
+    $("#resume_pop").click(function() {
+        window.open("./resume.html", "_blank");
+    })
+
+    $("#contact_pop").click(function() {
+        $("#contact").show();
+        $("#cover").show();
+        currentWindow = "#contact";
+    })
+
     // Project: Days of the Summer
 
-    // Project: Journey
-    $("#journey_site").click(function() {
-        window.open("http://peaceful-basin-4110.herokuapp.com/", "_blank");
+    // Contact
+    // em = email, gh = github, li = linkedin
+    // first two letters of id serve as index into color map
+    var iconColors = {"em": "rgb(191, 73, 61)", "gh": "rgb(28, 28, 28)", "li": "rgb(67, 118, 178)"};
+    var contactNeutral = "rgb(180, 180, 180)";
+    var contactSelected = "rgb(120, 120, 120)";
+
+    function colorContact(fieldName) {
+        $("#".concat(fieldName).concat("_icon")).css("color", iconColors[fieldName]);
+        $("#".concat(fieldName).concat("_text")).css("color", contactSelected);
+    }
+
+    function uncolorContact(fieldName) {
+        $("#".concat(fieldName).concat("_icon")).css("color", contactNeutral);
+        $("#".concat(fieldName).concat("_text")).css("color", contactNeutral);
+    }
+
+    $(".fa").mouseover(function() {
+        colorContact($(this).attr("id").substring(0, 2));
     });
-    $("#journey_github").click(function() {
-        window.open("https://github.com/fxchen12/AlphaBrosPublic", "_blank");
+    $(".contact_text").mouseover(function() {
+        colorContact($(this).attr("id").substring(0, 2));
+    });
+
+    $(".fa").mouseout(function() {
+        uncolorContact($(this).attr("id").substring(0, 2));
+    });
+    $(".contact_text").mouseout(function() {
+        uncolorContact($(this).attr("id").substring(0, 2));
+    });
+
+    // Cover and x button
+    var xNeutral = "rgb(220, 220, 220)";
+    var xSelected = "rgb(150, 150, 150)";
+
+    $(".xbutton").mouseover(function() {
+        $(this).css("color", xSelected);
+    });
+    $(".xbutton").mouseout(function() {
+        $(this).css("color", xNeutral);
+    });
+
+    $(".xbutton").click(function() {
+        $(currentWindow).hide();
+        $("#cover").hide();
+    });
+
+    $("#cover").click(function() {
+        $(currentWindow).hide();
+        $(this).hide();
     });
 });

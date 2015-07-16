@@ -4,6 +4,7 @@ Substantial reuse of code/ideas:
 - http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size
 - http://stackoverflow.com/questions/16586594/scroll-up-and-down-a-div-on-button-click-using-jquery
 - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video
+- http://fortawesome.github.io/Font-Awesome/
 
 Technologies used:
 - GitHub, GitHub Pages
@@ -11,6 +12,7 @@ Technologies used:
 - Sublime Text 3
 - Adobe CC, especially Photoshop and Typekit
 - Google Domains
+- Apple Digital Color Meter
 
 Documentation, techniques, information:
 - Google
@@ -32,11 +34,13 @@ Assets:
 - Austin Fathman for photo
 - MIT GEL for photo
 - See Journey repository for additional photo credits
+- Dr. Casinghino (MIT 21M.302) for recording
 
 Inspirations:
 http://cosmosdarwin.com/
 http://damondoucet.net/
 http://jasonmraz.com/
 http://www.apple.com/
+http://www.w3schools.com/
 
 See project repositories for project-specific sources.
