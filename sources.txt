@@ -21,12 +21,13 @@ Documentation, techniques, information:
 - https://css-tricks.com/
 - http://www.w3schools.com/
 - Erik D. Kennedy on Medium
-- https://support.mozilla.org/
-- https://developer.mozilla.org/
+- https://mozilla.org/
 - goodreads.com
 - http://www.copyright.gov/circs/circ01.pdf
 - https://news.ycombinator.com/item?id=7738293
 - https://www.ivcc.edu/stylebooks/stylebook4.aspx?id=14718
+- http://jplayer.org/ (didn't directly use code)
+- http://jquery.com/
 
 Assets:
 - Typeface: Effra by Dalton Maag
@@ -37,10 +38,22 @@ Assets:
 - Dr. Casinghino (MIT 21M.302) for recording
 
 Inspirations:
-http://cosmosdarwin.com/
-http://damondoucet.net/
-http://jasonmraz.com/
-http://www.apple.com/
-http://www.w3schools.com/
+- http://cosmosdarwin.com/
+- http://damondoucet.net/
+- http://jasonmraz.com/
+- http://www.apple.com/
+- http://www.w3schools.com/
+- iTunes
+- iPod Nano
 
 See project repositories for project-specific sources.
+
+License Text:
+MIT (jPlayer, jQuery)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

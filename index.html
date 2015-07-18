@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel = "icon" href = "./assets/favicon.png" type = "image/png" size = "16x16" />
+        <link rel = "stylesheet" href = "./font-awesome-4.3.0/css/font-awesome.min.css" />
         <link rel = "stylesheet" type = "text/css" href = "./stylesheets/index.css" />
-        <link rel = "icon" href = "./assets/favicon.png" type = "image/png" sizes = "16x16"/>
-        <link rel = "stylesheet" href = "./font-awesome-4.3.0/css/font-awesome.min.css"/>
 
         <script src="//use.typekit.net/rsz7dan.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
@@ -95,7 +95,7 @@
             &copy; 2015 Francis Chen
         </div>
 
-        <div id = "contact">
+        <div id = "contact" class = "overlay">
             <div class = "xbutton">x</div>
             <div id = "contact_title">Contact Information</div>
             <div id = "contact_content">
@@ -126,10 +126,23 @@
             </div>
         </div>
 
-        <div id = "dots_play">
-        </div>
-
-        <div id = "dots_sheet" class = "pdf">
+        <div id = "dots_content" class = "overlay">
+            <div class = "xbutton">x</div>
+            <div id = "dots_main">
+                <div id = "dots_art">
+                </div>
+                <div id = "dots_right">
+                    <div id = "dots_title">Days of the Summer</div>
+                    <div id = "dots_album">Single</div>
+                    <div id = "dots_lower">
+                        <div id = "dots_player">
+                            <audio controls id = "dots_audio">
+                                <source src = "./assets/Days of the Summer.mp3" />
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id = "cover">

@@ -54,6 +54,17 @@ $(document).ready(function() {
 
     // Project: Days of the Summer
 
+    $("#dots_listen").click(function() {
+        $("#dots_content").show();
+        $("#cover").show();
+        document.getElementById("dots_audio").play();
+        currentWindow = "#dots_content";
+    });
+
+    $("#dots_score").click(function() {
+        window.open("./dots_score.html", "_blank");
+    });
+
     // Contact
     // em = email, gh = github, li = linkedin
     // first two letters of id serve as index into color map
@@ -99,10 +110,12 @@ $(document).ready(function() {
     $(".xbutton").click(function() {
         $(currentWindow).hide();
         $("#cover").hide();
+        document.getElementById("dots_audio").pause();
     });
 
     $("#cover").click(function() {
         $(currentWindow).hide();
         $(this).hide();
+        document.getElementById("dots_audio").pause();
     });
 });
