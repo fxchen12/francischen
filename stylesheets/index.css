@@ -67,6 +67,10 @@ a {
     clear: both;
 }
 
+#resume_pop {
+    color: rgb(240, 240, 240);
+}
+
 #contact_pop {
     margin-right: 15px;
 }

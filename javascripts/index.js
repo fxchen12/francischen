@@ -42,10 +42,6 @@ $(document).ready(function() {
         });
     });
 
-    $("#resume_pop").click(function() {
-        window.open("./resume.html", "_blank");
-    })
-
     $("#contact_pop").click(function() {
         $("#contact").show();
         $("#cover").show();
@@ -59,10 +55,6 @@ $(document).ready(function() {
         $("#cover").show();
         document.getElementById("dots_audio").play();
         currentWindow = "#dots_content";
-    });
-
-    $("#dots_score").click(function() {
-        window.open("./dots_score.html", "_blank");
     });
 
     // Contact
@@ -110,12 +102,10 @@ $(document).ready(function() {
     $(".xbutton").click(function() {
         $(currentWindow).hide();
         $("#cover").hide();
-        document.getElementById("dots_audio").pause();
     });
 
     $("#cover").click(function() {
         $(currentWindow).hide();
         $(this).hide();
-        document.getElementById("dots_audio").pause();
     });
 });
