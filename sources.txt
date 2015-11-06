@@ -45,6 +45,7 @@ Inspirations:
 - http://www.w3schools.com/
 - iTunes
 - iPod Nano
+- Facebook
 
 See project repositories for project-specific sources.
 

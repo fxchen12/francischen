@@ -9,26 +9,38 @@ a {
     text-decoration: none;
 }
 
-#banner_container {
-    min-width: 1024px;
-}
-
 #banner {
     background-image: url("../assets/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     padding-top: 26.29%;
+    position: fixed;
+    top: 0px;
+    z-index: -1;
     /* http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size */
 }
 
-#top_bar {
-    width: 100%;
+#main_content {
+    background-color: white;
     min-width: 1024px;
+}
+
+#banner_invis {
+    min-width: 1024px;
+    background-color: rgb(255, 255, 255, 0);
+    width: 100%;
+    padding-top: 26.29%;
+}
+
+#top_bar {
+    width: 100% !important;
+    min-width: 350px;
     height: 35px;
     z-index: 1;
-    background-color: rgba(160, 160, 160, 0.95);
-    color: rgb(240, 240, 240);
+    background-color: rgba(255, 255, 255, 0.95);
+    color: rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(220, 220, 220);
 }
 
 #top_bar.is_stuck {
@@ -48,8 +60,8 @@ a {
     cursor: pointer;
 }
 
-#top_left_white {
-    background-image: url("../assets/logo_white.png");
+#top_left_dark {
+    background-image: url("../assets/logo_dark.png");
     background-size: contain;
     width: 100%;
     height: 100%;
@@ -68,7 +80,7 @@ a {
 }
 
 #resume_pop {
-    color: rgb(240, 240, 240);
+    color: rgb(190, 190, 190);
 }
 
 #contact_pop {
@@ -98,22 +110,33 @@ a {
     height: inherit;
     width: 310px;
     margin-top: 40px;
-    margin-left: 25px;
+    margin-left: 80px;
     margin-bottom: 25px;
     display: inline-block;
     float: left;
 }
 
 #intro_right {
-    width: 689px;
+    width: 610px;
     display: inline-block;
     float: left;
 }
 
 #intro_text {
-    margin: 65px 45px;
-    font-size: 14pt;
+    margin: 45px 45px;
+    font-size: 12pt;
     text-align: left;
+}
+
+#signature {
+    background-image: url("../assets/signature.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 181px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    left: 200px;
 }
 
 #portfolio_title {
@@ -128,8 +151,8 @@ a {
     border-right: 0px;
     border-style: solid;
     border-color: rgb(220, 220, 220);
-    font-size: 26pt;
-    color: rgb(160, 160, 160);
+    font-size: 20pt;
+    color: rgb(190, 190, 190);
     text-align: center;
 }
 
@@ -145,6 +168,12 @@ a {
     margin-bottom: 60px;
     width: 960px;
     height: 220px;
+}
+
+#wt {
+    background-image: url("../assets/wt_banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #dots {
@@ -259,7 +288,7 @@ a {
     top: 50%;
     left: 50%;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 1px 2px 1px rgb(70, 70, 70);
+    box-shadow: 0px 1px 2px 1px rgb(20, 20, 20);
 }
 
 #contact {
@@ -317,6 +346,55 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     float: left;
+}
+
+#wt_content {
+    display: none;
+    margin-top: -150px;
+    margin-left: -323px;
+    height: 300px;
+    width: 650px;
+}
+
+#wt_art {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background-image: url("../assets/wt_cover.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#wt_right {
+    display: block;
+    height: 300px;
+    width: 350px;
+    float: left;
+}
+
+#wt_title {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 20pt;
+    color: rgb(60, 60, 60);
+}
+
+#wt_sub {
+    font-size: 16pt;
+    color: rgb(140, 140, 140);
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.lyrics_line {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+.wt_song {
+    color: rgb(180, 180, 180);
 }
 
 #dots_right {

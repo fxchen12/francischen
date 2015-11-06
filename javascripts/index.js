@@ -4,17 +4,17 @@ $(document).ready(function() {
 
     // Mouseover/mouse out feedback.
     $("#top_left").mouseover(function() {
-        $("#top_left_white").show();
+        $("#top_left_dark").show();
     });
     $("#top_left").mouseout(function() {
-        $("#top_left_white").hide();
+        $("#top_left_dark").hide();
     });
         
     $(".pop_button").mouseover(function() {
-        $(this).css("color", "rgb(255, 255, 255)");
+        $(this).css("color", "rgb(175, 175, 175)");
     });
     $(".pop_button").mouseout(function() {
-        $(this).css("color", "rgb(240, 240, 240)");
+        $(this).css("color", "rgb(190, 190, 190)");
     });
 
     $(".project").mouseover(function() {
@@ -36,7 +36,7 @@ $(document).ready(function() {
 
     // Top bar
     // http://stackoverflow.com/questions/16586594/scroll-up-and-down-a-div-on-button-click-using-jquery
-    $("#top_left_white").click(function() {
+    $("#top_left_dark").click(function() {
         $("body").animate({
             scrollTop: 0
         });
@@ -47,6 +47,21 @@ $(document).ready(function() {
         $("#cover").show();
         currentWindow = "#contact";
     })
+
+    // Project: The Wind and the Tide
+
+    $("#wt_lyrics").click(function() {
+        $("#wt_content").show();
+        $("#cover").show();
+        currentWindow = "#wt_content";
+    });
+
+    $(".wt_song").mouseover(function() {
+        $(this).css("color", "rgb(120, 120, 120)");
+    });
+    $(".wt_song").mouseout(function() {
+        $(this).css("color", "rgb(180, 180, 180)");
+    });
 
     // Project: Days of the Summer
 
