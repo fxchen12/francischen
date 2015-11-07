@@ -46,6 +46,7 @@ Inspirations:
 - iTunes
 - iPod Nano
 - Facebook
+- Palantir
 
 See project repositories for project-specific sources.
 
