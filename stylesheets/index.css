@@ -10,11 +10,11 @@ a {
 }
 
 #banner {
-    background-image: url("../assets/banner.png");
+    background-image: url("../assets/sfbanner.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    padding-top: 26.29%;
+    padding-top: 17.04%;
     position: fixed;
     top: 0px;
     z-index: -1;
@@ -30,13 +30,13 @@ a {
     min-width: 1024px;
     background-color: rgb(255, 255, 255, 0);
     width: 100%;
-    padding-top: 26.29%;
+    padding-top: 17.04%;
 }
 
 #top_bar {
     width: 100% !important;
     min-width: 350px;
-    height: 35px;
+    height: 30px;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.95);
     color: rgb(190, 190, 190);
@@ -53,8 +53,8 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     float: left;
-    height: 27px;
-    width: 27px;
+    height: 22px;
+    width: 22px;
     margin-top: 4px;
     margin-left: 5px;
     cursor: pointer;
@@ -70,7 +70,7 @@ a {
 
 #top_right {
     padding-top: 6px;
-    font-size: 14pt;
+    font-size: 11pt;
     letter-spacing: 1px;
     float: right;
 }
@@ -104,12 +104,12 @@ a {
 }
 
 #intro_left {
-    background-image: url("../assets/me.png");
+    background-image: url("../assets/oceanbeachpicture.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: inherit;
     width: 310px;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-left: 80px;
     margin-bottom: 25px;
     display: inline-block;
@@ -123,7 +123,7 @@ a {
 }
 
 #intro_text {
-    margin: 45px 45px;
+    margin: 40px 0px 0px 45px;
     font-size: 12pt;
     text-align: left;
 }
@@ -142,32 +142,46 @@ a {
 #portfolio_title {
     width: 100%;
     min-width: 1024px;
-    margin-top: 90px;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    top:-30px;
     border-top: 1px;
     border-bottom: 1px;
     border-left: 0px;
     border-right: 0px;
     border-style: solid;
     border-color: rgb(220, 220, 220);
-    font-size: 20pt;
+    font-size: 14pt;
     color: rgb(190, 190, 190);
+    display:inline-block;
     text-align: center;
 }
 
 #proj_container {
     width: 100%;
     min-width: 1024px;
+    position: relative;
+    top:-30px;
 }
 
 .project {
-    margin-top: 45px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     width: 960px;
     height: 220px;
+}
+
+#meng {
+    background-image: url("../assets/meng_banner.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+#mc {
+    background-image: url("../assets/mc_banner.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
 }
 
 #wt {
@@ -238,14 +252,15 @@ a {
 #copyright {
     width: 100%;
     min-width: 1024px;
-    height: 31px;
+    height: 26px;
     padding-top: 7px;
     border-color: rgb(220, 220, 220);
     border-style: solid;
     border-width: 1px 0px 0px 0px;
     color: rgb(190, 190, 190);
-    font-size: 14pt;
+    font-size: 11pt;
     text-align: center;
+    margin-top:-30px;
 }
 
 #cover {

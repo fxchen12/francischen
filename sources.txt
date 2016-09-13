@@ -10,7 +10,7 @@ Technologies used:
 - GitHub, GitHub Pages
 - HTML, CSS, and JavaScript
 - Sublime Text 3
-- Adobe CC, especially Photoshop and Typekit
+- Adobe CC, especially Photoshop, Typekit, Stock
 - Google Domains
 - Apple Digital Color Meter
 
@@ -36,6 +36,8 @@ Assets:
 - MIT GEL for photo
 - See Journey repository for additional photo credits
 - Dr. Casinghino (MIT 21M.302) for recording
+- Adobe Stock for photos
+- Mohit Hingorani for photo
 
 Inspirations:
 - http://cosmosdarwin.com/
@@ -51,7 +53,7 @@ Inspirations:
 See project repositories for project-specific sources.
 
 License Text:
-MIT (jPlayer, jQuery)
+MIT (jQuery, sticky-kit)
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -59,3 +61,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+FontAwesome:
+http://fontawesome.io/license/
