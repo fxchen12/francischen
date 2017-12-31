@@ -48,19 +48,32 @@ $(document).ready(function() {
         currentWindow = "#contact";
     })
 
+    // Handling music and lyrics
+
+    $(".album_song").mouseover(function() {
+        $(this).css("color", textSelected);
+    });
+    $(".album_song").mouseout(function() {
+        $(this).css("color", textNeutral);
+    });
+
+    // Project: Nightfall
+
+    const textNeutral = "rgb(180, 180, 180)";
+    const textSelected = "rgb(120, 120, 120)";
+
+    $("#nf_lyrics").click(function() {
+        $("#nf_content").show();
+        $("#cover").show();
+        currentWindow = "#nf_content";
+    });
+
     // Project: The Wind and the Tide
 
     $("#wt_lyrics").click(function() {
         $("#wt_content").show();
         $("#cover").show();
         currentWindow = "#wt_content";
-    });
-
-    $(".wt_song").mouseover(function() {
-        $(this).css("color", "rgb(120, 120, 120)");
-    });
-    $(".wt_song").mouseout(function() {
-        $(this).css("color", "rgb(180, 180, 180)");
     });
 
     // Project: Days of the Summer
@@ -76,17 +89,15 @@ $(document).ready(function() {
     // em = email, gh = github, li = linkedin
     // first two letters of id serve as index into color map
     var iconColors = {"em": "rgb(191, 73, 61)", "gh": "rgb(28, 28, 28)", "li": "rgb(67, 118, 178)"};
-    var contactNeutral = "rgb(180, 180, 180)";
-    var contactSelected = "rgb(120, 120, 120)";
 
     function colorContact(fieldName) {
         $("#".concat(fieldName).concat("_icon")).css("color", iconColors[fieldName]);
-        $("#".concat(fieldName).concat("_text")).css("color", contactSelected);
+        $("#".concat(fieldName).concat("_text")).css("color", textSelected);
     }
 
     function uncolorContact(fieldName) {
-        $("#".concat(fieldName).concat("_icon")).css("color", contactNeutral);
-        $("#".concat(fieldName).concat("_text")).css("color", contactNeutral);
+        $("#".concat(fieldName).concat("_icon")).css("color", textNeutral);
+        $("#".concat(fieldName).concat("_text")).css("color", textNeutral);
     }
 
     $(".fa").mouseover(function() {
@@ -104,8 +115,8 @@ $(document).ready(function() {
     });
 
     // Cover and x button
-    var xNeutral = "rgb(220, 220, 220)";
-    var xSelected = "rgb(150, 150, 150)";
+    const xNeutral = "rgb(220, 220, 220)";
+    const xSelected = "rgb(150, 150, 150)";
 
     $(".xbutton").mouseover(function() {
         $(this).css("color", xSelected);

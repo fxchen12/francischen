@@ -172,6 +172,12 @@ a {
     height: 220px;
 }
 
+#nf {
+    background-image: url("../assets/nf_banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 #meng {
     background-image: url("../assets/meng_banner.png");
     background-size: contain;
@@ -363,7 +369,7 @@ a {
     float: left;
 }
 
-#wt_content {
+.album_content {
     display: none;
     margin-top: -150px;
     margin-left: -323px;
@@ -371,31 +377,38 @@ a {
     width: 650px;
 }
 
-#wt_art {
+.album_art {
     display: inline-block;
     height: 300px;
     width: 300px;
-    background-image: url("../assets/wt_cover.png");
     background-size: contain;
     background-repeat: no-repeat;
     float: left;
 }
 
-#wt_right {
+#wt_art { 
+    background-image: url("../assets/wt_cover.png");
+}
+
+#nf_art {
+    background-image: url("../assets/nf_cover.png");
+}
+
+.album_right {
     display: block;
     height: 300px;
     width: 350px;
     float: left;
 }
 
-#wt_title {
+.album_title {
     text-align: center;
     margin-top: 22px;
     font-size: 20pt;
     color: rgb(60, 60, 60);
 }
 
-#wt_sub {
+.album_subtitle {
     font-size: 16pt;
     color: rgb(140, 140, 140);
     text-align: center;
@@ -408,7 +421,7 @@ a {
     margin-left: 50px;
 }
 
-.wt_song {
+.album_song {
     color: rgb(180, 180, 180);
 }
 
